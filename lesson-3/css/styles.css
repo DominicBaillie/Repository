@@ -1,0 +1,32 @@
+/* Page Styles */
+@charset "utf-8";
+body {
+	p{
+		mark{
+			background-color: rgb(237, 123, 233);
+			color: black;
+		}
+		text-align: 10px;
+		font-family: Georgia, serif;
+		text-indent: 10px;
+		word-spacing: 20px;
+		line-height: 1.6;
+		background-color: #ffffff;
+		color: #4cb7ae;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		text-align: center;
+		font-family: Arial, sans-serif;
+	}
+	
+	header{
+		text-align: center;
+		color:black;
+	}
+	footer
+	{
+		text-align: center;
+		color: black;
+	}
+}
