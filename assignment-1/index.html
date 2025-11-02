@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Order Now - Pizza Shop™</title>
+		<!-- Syle Import -->
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+	</head>
+	<body>
+        <header>
+            <h1><em>Pizza</em>Shop™</h1>
+        </header>
+        <img src= "images/Screenshot 2025-11-02 075350.png" alt="Piza Logo" height="150" width="150"/>
+        <!--Image by Ning Creative, https://www.canva.com/templates/EAGhZGALI54-beige-red-simple-illustration-pizza-logo/-->
+		<main>
+            <h2>Edit Account Information and Settings</h2>
+            <form id="pizza_info" action process-form.php method="get">
+                <input type="hidden" name="form_sent" value="1" />
+                <!--Pizza Creator-->
+                <fieldset>
+                    <h3>Size</h3>
+                    <input type="radio" name="size" id="sm" value="sm" />
+                    <label for="sm">Small (4 Slices)</label>
+                    
+                    <input type="radio" name="size" id="med" value="med" />
+                    <label for="med">Medium(6 Slices)</label>
+                    
+                    <input type="radio" name="size" id="lrg" value="lrg " />
+                    <label for="lrg">Large(8 Slices)</label>
+
+                    <h3>Dough Type</h3>
+                    <input type="radio" name="dough" id="reg" value="reg" />
+                    <label for="reg">Regular Dough</label>
+                    
+                    <input type="radio" name="dough" id="thin" value="thin" />
+                    <label for="thin">Thin Dough</label>
+                    
+                    <input type="radio" name="dough" id="thick" value="thick " />
+                    <label for="thick">Thick Doug</label>
+
+                    <h3>Cheeses</h3>
+                    <input type="checkbox" name="cheese[]" id="cheese1" value="mozz" />
+                    <label for="cheese1">Mozzerella</label>
+                    
+                    <input type="checkbox" name="cheese[]" id="cheese2" value="goat" />
+                    <label for="cheese2">Goat</label>
+
+                    <input type="checkbox" name="cheese[]" id="cheese3" value="parm" />
+                    <label for="cheese3">Parmesan</label>
+
+                    <input type="checkbox" name="cheese[]" id="cheese4" value="ched" />
+                    <label for="cheese4">Cheddar</label>
+
+                    <h3>Sauces</h3>
+                    <input type="radio" name="Tomato" id="tom" value="tom" />
+                    <label for="tom">Tomato Sauce</label>
+                    
+                    <input type="radio" name="Garlic" id="gar" value="gar" />
+                    <label for="gar">Garlic Sauce</label>
+                    
+                    <input type="radio" name="Alfredo" id="alf" value="alf " />
+                    <label for="alf">Alfredo</label>
+
+                    <h3>Toppings</h3>
+                    <input type="checkbox" name="top[]" id="top1" value="pep" />
+                    <label for="top1">Pepperoni</label>
+                    
+                    <input type="checkbox" name="top[]" id="top2" value="oli" />
+                    <label for="top2">Green Olive</label>
+
+                    <input type="checkbox" name="top[]" id="top3" value="blo" />
+                    <label for="top3">Black Olive</label>
+
+                    <input type="checkbox" name="top[]" id="top4" value="oni" />
+                    <label for="top4">Onion</label>
+
+                    <input type="checkbox" name="top[]" id="top5" value="jal" />
+                    <label for="top5">Jalapeno</label>
+                    
+                    <input type="checkbox" name="top[]" id="top6" value="rpe" />
+                    <label for="top6">Red Pepper</label>
+
+                    <input type="checkbox" name="top[]" id="top7" value="bna" />
+                    <label for="top7">Banana Pepper</label>
+
+                    <input type="checkbox" name="top[]" id="top8" value="Sau" />
+                    <label for="top8">Sausage</label>
+                </fieldset>
+            </form>
+            <!-- Payments Info -->
+            <form id="edit_payment_info" action="process-form.php" method="get">
+                
+                <input type="hidden" name="form_sent" value="1" />
+                
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <!-- Name and Address Inputs -->
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" />
+                         
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" />
+                         
+                    </div>
+                    
+                    <div>
+                        <label for="address">Address Line 1</label>
+                        <input id="address" type="text" name="address" />
+                    </div>
+                    <!-- List of Provinces -->
+                    <div>
+                        <label for="province">Province</label>
+                        <select name="province" id="province">
+                            <optgroup label="provinces">
+                                <option value="AB">Alberta</option>
+                                <option value="BC">British Columbia</option>
+                                <option value="MB">Manitoba</option>
+                                <option value="NB">New Brunswick</option>
+                                <option value="NF">Newfoundland</option>
+                                <option value="NS">Nova Scotia</option>
+                                <option value="ON">Ontario</option>
+                                <option value="PE">Prince Edward Island</option>
+                                <option value="PQ">Quebec</option>
+                                <option value="SK">Saskatchewan</option>
+                            </optgroup>
+                            <optgroup label="territories">
+                                <option value="NT">Northwest Territories</option>
+                                <option value="NV">Nunavut</option>
+                                <option value="YK">Yukon</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="tel" name="phone" />
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" />                        
+                    </div>
+                </fieldset>
+                
+                <!-- Submit Options -->
+                <button type="reset">Reset</button> <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>©Pizza Shop Inc. All rights reserved</small></p>
+        </footer>
+	</body>
+</html>
