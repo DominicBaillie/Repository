@@ -8,92 +8,108 @@
 	</head>
 	<body>
         <header>
+            <img src= "images/Screenshot 2025-11-02 075350.png" alt="Piza Logo" height="150" width="150"/>
+        <!--Image by Ning Creative, https://www.canva.com/templates/EAGhZGALI54-beige-red-simple-illustration-pizza-logo/-->
             <h1><em>Pizza</em>Shop™</h1>
         </header>
-        <img src= "images/Screenshot 2025-11-02 075350.png" alt="Piza Logo" height="150" width="150"/>
-        <!--Image by Ning Creative, https://www.canva.com/templates/EAGhZGALI54-beige-red-simple-illustration-pizza-logo/-->
+        
 		<main>
-            <h2>Edit Account Information and Settings</h2>
-            <form id="pizza_info" action process-form.php method="get">
+            <h2>Create Your Personal Pizza</h2>
+            <form id="pizza_info" action="process-form.php" method="get">
                 <input type="hidden" name="form_sent" value="1" />
                 <!--Pizza Creator-->
                 <fieldset>
-                    <h3>Size</h3>
-                    <input type="radio" name="size" id="sm" value="sm" />
-                    <label for="sm">Small (4 Slices)</label>
-                    
-                    <input type="radio" name="size" id="med" value="med" />
-                    <label for="med">Medium(6 Slices)</label>
-                    
-                    <input type="radio" name="size" id="lrg" value="lrg " />
-                    <label for="lrg">Large(8 Slices)</label>
+                    <div>
+                        <h3>Size</h3>
+                        <input type="radio" name="size" id="sm" value="sm" />
+                        <label for="sm">Small (4 Slices)</label>
+                        
+                        <input type="radio" name="size" id="med" value="med" />
+                        <label for="med">Medium(6 Slices)</label>
+                        
+                        <input type="radio" name="size" id="lrg" value="lrg" />
+                        <label for="lrg">Large(8 Slices)</label>
+                    </div>
 
-                    <h3>Dough Type</h3>
-                    <input type="radio" name="dough" id="reg" value="reg" />
-                    <label for="reg">Regular Dough</label>
-                    
-                    <input type="radio" name="dough" id="thin" value="thin" />
-                    <label for="thin">Thin Dough</label>
-                    
-                    <input type="radio" name="dough" id="thick" value="thick " />
-                    <label for="thick">Thick Doug</label>
+                    <div>
+                        <h3>Dough Type</h3>
+                        <input type="radio" name="dough" id="reg" value="reg" />
+                        <label for="reg">Regular Dough</label>
+                        
+                        <input type="radio" name="dough" id="thin" value="thin" />
+                        <label for="thin">Thin Dough</label>
+                        
+                        <input type="radio" name="dough" id="thick" value="thick" />
+                        <label for="thick">Thick Doug</label>
+                    </div>
 
-                    <h3>Cheeses</h3>
-                    <input type="checkbox" name="cheese[]" id="cheese1" value="mozz" />
-                    <label for="cheese1">Mozzerella</label>
-                    
-                    <input type="checkbox" name="cheese[]" id="cheese2" value="goat" />
-                    <label for="cheese2">Goat</label>
+                    <div>
+                        <h3>Cheeses</h3>
+                        <input type="checkbox" name="cheese[]" id="cheese1" value="mozz" />
+                        <label for="cheese1">Mozzerella</label>
+                        
+                        <input type="checkbox" name="cheese[]" id="cheese2" value="goat" />
+                        <label for="cheese2">Goat</label>
 
-                    <input type="checkbox" name="cheese[]" id="cheese3" value="parm" />
-                    <label for="cheese3">Parmesan</label>
+                        <input type="checkbox" name="cheese[]" id="cheese3" value="parm" />
+                        <label for="cheese3">Parmesan</label>
 
-                    <input type="checkbox" name="cheese[]" id="cheese4" value="ched" />
-                    <label for="cheese4">Cheddar</label>
+                        <input type="checkbox" name="cheese[]" id="cheese4" value="ched" />
+                        <label for="cheese4">Cheddar</label>
+                    </div>
 
-                    <h3>Sauces</h3>
-                    <input type="radio" name="Tomato" id="tom" value="tom" />
-                    <label for="tom">Tomato Sauce</label>
-                    
-                    <input type="radio" name="Garlic" id="gar" value="gar" />
-                    <label for="gar">Garlic Sauce</label>
-                    
-                    <input type="radio" name="Alfredo" id="alf" value="alf " />
-                    <label for="alf">Alfredo</label>
+                    <div>
+                        <h3>Sauces</h3>
+                        <input type="radio" name="sauce" id="tom" value="tom" />
+                        <label for="tom">Tomato Sauce</label>
+                        
+                        <input type="radio" name="sauce" id="gar" value="gar" />
+                        <label for="gar">Garlic Sauce</label>
+                        
+                        <input type="radio" name="sauce" id="alf" value="alf" />
+                        <label for="alf">Alfredo</label>
+                    </div>
 
-                    <h3>Toppings</h3>
-                    <input type="checkbox" name="top[]" id="top1" value="pep" />
-                    <label for="top1">Pepperoni</label>
-                    
-                    <input type="checkbox" name="top[]" id="top2" value="oli" />
-                    <label for="top2">Green Olive</label>
+                    <div>
+                        <h3>Toppings</h3>
+                        <input type="checkbox" name="top[]" id="top1" value="pep" />
+                        <label for="top1">Pepperoni</label>
+                        
+                        <input type="checkbox" name="top[]" id="top2" value="oli" />
+                        <label for="top2">Green Olive</label>
 
-                    <input type="checkbox" name="top[]" id="top3" value="blo" />
-                    <label for="top3">Black Olive</label>
+                        <input type="checkbox" name="top[]" id="top3" value="blo" />
+                        <label for="top3">Black Olive</label>
 
-                    <input type="checkbox" name="top[]" id="top4" value="oni" />
-                    <label for="top4">Onion</label>
+                        <input type="checkbox" name="top[]" id="top4" value="oni" />
+                        <label for="top4">Onion</label>
 
-                    <input type="checkbox" name="top[]" id="top5" value="jal" />
-                    <label for="top5">Jalapeno</label>
-                    
-                    <input type="checkbox" name="top[]" id="top6" value="rpe" />
-                    <label for="top6">Red Pepper</label>
+                        <input type="checkbox" name="top[]" id="top5" value="jal" />
+                        <label for="top5">Jalapeno</label>
+                        
+                        <input type="checkbox" name="top[]" id="top6" value="rpe" />
+                        <label for="top6">Red Pepper</label>
 
-                    <input type="checkbox" name="top[]" id="top7" value="bna" />
-                    <label for="top7">Banana Pepper</label>
+                        <input type="checkbox" name="top[]" id="top7" value="bna" />
+                        <label for="top7">Banana Pepper</label>
 
-                    <input type="checkbox" name="top[]" id="top8" value="Sau" />
-                    <label for="top8">Sausage</label>
+                        <input type="checkbox" name="top[]" id="top8" value="Sau" />
+                        <label for="top8">Sausage</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="question">Special Instructions</label>
+                        <br>
+                        <textarea id="question" name="question" rows="5" cols="50"></textarea>
+                        
+                    </div>
+
                 </fieldset>
-            </form>
-            <!-- Payments Info -->
-            <form id="edit_payment_info" action="process-form.php" method="get">
-                
-                <input type="hidden" name="form_sent" value="1" />
+            
+                <!-- Payments Info -->
                 
                 <fieldset>
-                    <legend>Contact Information</legend>
+                    <legend>Contact and Delivery Information</legend>
                     <!-- Name and Address Inputs -->
                     <div>
                         <label for="fname">First Name</label>

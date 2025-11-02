@@ -1,0 +1,51 @@
+html 
+{
+	background-color: #bd3e2a;
+}
+body 
+{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	width: 760px;
+	background-color: #FFF;
+	margin: 20px auto;
+	padding: 2em 2em 4em 2em;
+	border-radius: 5px;
+}
+h1 
+{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	letter-spacing: -0.08em;
+	font-style: italic;
+	color: #9a5c32;
+}
+h3
+{
+    color: #bd3e2a;
+    text-indent: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+fieldset 
+{
+	border: 1px solid #AAA;
+	margin: 1em 0;
+}
+legend 
+{
+	font-size: 75%;
+	text-transform: uppercase;
+	color: #AAA;
+}
+fieldset div 
+{
+	margin-bottom: 0.5em;
+}
+
+label.error 
+{
+	color: red;
+	float: right;
+}
+small 
+{
+	font-size: 70%;
+}
