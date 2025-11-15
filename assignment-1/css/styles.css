@@ -1,7 +1,9 @@
+/* Red Background */
 html 
 {
 	background-color: #bd3e2a;
 }
+/* Main Font, Border, and White Background */
 body 
 {
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -11,6 +13,7 @@ body
 	padding: 2em 2em 4em 2em;
 	border-radius: 5px;
 }
+/* Header Styles */
 h1 
 {
 	font-family:Georgia, 'Times New Roman', Times, serif;
@@ -35,6 +38,7 @@ legend
 	text-transform: uppercase;
 	color: #AAA;
 }
+/* Form Styles */
 fieldset div 
 {
 	margin-bottom: 0.5em;
