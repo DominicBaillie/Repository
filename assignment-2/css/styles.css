@@ -38,8 +38,17 @@ img
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-style: oblique;
-    margin-top: +1000px;
+    margin-top: +50px;
     text-shadow: 7px 7px 8px #000000;
     line-height: 1.5;
     letter-spacing: 1px;
+}
+.links
+{
+    margin-top: 900px;
+    color : rgb(128, 128, 118);
+}
+.links a
+{
+    color : rgb(175, 224, 233);
 }
