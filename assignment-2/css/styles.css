@@ -1,0 +1,45 @@
+html, body 
+{
+    font-family: fantasy;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+body 
+{
+    background-image: url("../images/halloween-5880068_1280.webp");
+    /* Image Recieved From pixabay.com, by creativeralph. https://pixabay.com/illustrations/halloween-haunted-house-graveyard-5880068/ */
+    background-position-x: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: fantasy;
+}
+img 
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    opacity: 0.6;
+    border-radius: 15px;
+}
+.title 
+{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #575252;
+}
+.credits
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: +1000px;
+    text-shadow: 7px 7px 8px #000000;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
