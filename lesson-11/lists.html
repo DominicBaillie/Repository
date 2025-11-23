@@ -3,44 +3,7 @@
 <head>
 	<title>Lists | COMP1002 HTML, CSS, and JS Fundamentals</title>
 	<meta charset="utf-8">
-	<style>
-		html {
-			font-family: Helvetica, Arial, sans-serif;
-		}
-		/* STEP 5: Styling Lists (list-style-type, list-style-position, list-style-image) */
-		/* STEP 5a: list-style-type (none | square | circle | disc) */
-		ul {
-
-		}
-		/* STEP 5b: Manipulate the list-style-position (inside | outside) in the rule above */
-		/* STEP 5c: Substitute regular list markers with images (list-style-image) in the rule just below */
-		ul {
-
-		}
-		/* STEP 5d: list-style-type (armenian | decimal | decimal-leading-zero | georgian | lower/upper-alpha | lower-greek | lower-latin | lower/upper-roman) - change in the rule below */
-		ol {
-			/* list-style-type: upper-latin; */
-		}
-		/* STEP 6: Laying Out Lists horizontally - use display: inline-block or inline */
-		li {
-
-		}
-		/* STEP 7: Targetting nested lists with contextual selectors - comment out all above declarations first */
-		ul ul {
-
-		}
-		ul ul ul {
-
-		}
-		/* STEP 8: Target specific levels of list items with direct-descendent selectors */
-
-		h1 img {
-			float: right;
-		}
-		/* STEP 9: Collect all above embedded CSS styles here and place them in an external CSS file */
-
-		/* STEP 10: Add a LINK element to this page, attaching the new external CSS file */
-	</style>
+	<url rel="stylesheet" href="css/lists.css"/>
 </head>
 <body>
 	<header>
@@ -49,15 +12,68 @@
 	<main>
 		<!-- STEP 1: Build a simple Unordered List -->
 		<h2>Unordered List</h2>
+			<ul>
+				<li>Milk</li>
+				<li>Eggs</li>
+				<li>Beans</li>
+				<li>Salsa</li>
+			</ul>
 
 		<!-- STEP 2: Build a simple Ordered List -->
 		<h2>Ordered List</h2>
+			<ol>
+				<li>Beat eggs</li>
+				<li>Add beans</li>
+				<li>Add Salsa and Milk</li>
+				<li>Cook for 15 Minutes</li>
+			</ol>
 
 		<!-- STEP 3: Build a Definition List -->
 		<h2>Definition List</h2>
+			<dl>
+				<dl>Toad</dl>
+				<dd>A Small Amphibian</dd>
+				<dt>Frog</dt>
+				<dd>A Smaller Amphibian</dd>
+				<dt>Bear</dt>
+				<dd>A Larger Non-Amphibian</dd>
+			</dl>
 
 		<!-- STEP 4: Build a nested list -->
 		<h2>Nested Lists</h2>
+			<ul>
+				<li>
+					Frog
+					<ul>
+						<li>
+							Regular Frog
+							<ul>
+								<li>Green Frog</li>
+								<li>Brown Frog</li>
+								<li>Yellow Frog</li>
+								<li>Toad</li>
+						</li>
+						<li>Normal Frog</li>
+						<li>Non-Descirpt Frog</li>
+					</ul>
+				</li>
+				<li>
+					Big Frog
+					<ul>
+						<li>Large Frog</li>
+						<li>Massive Frog</li>
+						<li>Huge Frog</li>
+					</ul>
+				</li>
+				<li>
+					Small Frog
+					<ul>
+						<li>Tiny Frog</li>
+						<li>Baby Frog</li>
+						<li>Tadpole Frog</li>
+					</ul>
+				</li>
+			</ul>
 
 	</main>
 	<footer>
