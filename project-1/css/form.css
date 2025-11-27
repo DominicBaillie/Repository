@@ -1,9 +1,9 @@
 html {
-	background-color: #32689A;
+	background-color: #9a3232;
 }
 body {
 	font-size: 100%;
-	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	color: #333;
 	width: 760px;
 	background-color: #FFF;
@@ -12,13 +12,10 @@ body {
 	border-radius: 5px;
 }
 h1 {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	letter-spacing: -0.08em;
-	font-style: italic;
-	color: #32689A;
-}
-h1 em {
-	color: #001c64;
+	text-decoration: wavy;
+	color: #ff8a05;
 }
 h2 {
 	color: #C88039;
@@ -36,16 +33,12 @@ fieldset div {
 	margin-bottom: 0.5em;
 }
 div label {
-	display: block;
-	width: 200px;
-	float: left;
-	text-align: right;
+
 	padding-right: 1em;
 }
 input[required] 
 {
-	border: 2px solid red;
-
+    border: 2px solid red;
 }
 label.error {
 	color: red;
