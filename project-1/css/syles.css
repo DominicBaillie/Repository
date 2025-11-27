@@ -1,0 +1,53 @@
+.my-container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('../images/hammer.jpg');
+}   
+
+html 
+{
+    font-size: 110%;
+    text-align: center;
+}
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16pt;
+    background-color: #141010;
+    color: white;
+}
+header, main, footer {
+	margin: 1in;
+	padding: 0;
+	line-height: 1.5;
+}
+h1 
+{
+    text-transform: uppercase;
+    font-size: 54pt;
+    color:red;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 16pt;
+    color: orange;
+}
+h3 
+{
+	font-size: 36pt;
+    color: yellow;
+}
+img
+{
+    max-width: 15%;
+    border-radius: 2px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links a
+{
+    color : rgb(145, 134, 77);
+}
