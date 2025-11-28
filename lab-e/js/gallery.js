@@ -1,6 +1,6 @@
 // IMPORTANT: Before you start, be sure to customize all href="" values within the server include PHP files so your site navigation works
 document.addEventListener("DOMContentLoaded", function () {
-    alert("Entered");
+    //alert("Entered");
     // STEP 1: Begin by adding a SCRIPT element to 'red/gallery.php' that refers to this EXTERNAL JavaScript File
 
     // STEP 2a: Grab the UL for #blockGallery and assign it to the variable 'blockGallery' - but use document.getElementById this time
