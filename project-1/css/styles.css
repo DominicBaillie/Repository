@@ -1,5 +1,6 @@
  
-html::before {
+html::before 
+{
   content: "";
   position: fixed;
   top: 0;
@@ -17,7 +18,7 @@ html::before {
       ),
       url('../images/hammer.jpg');
 
-  opacity: 65%;
+  opacity: 75%;
   z-index: -1;
 }
 header, footer 
@@ -29,12 +30,24 @@ header, footer
 html, body, p 
 {
 	font-family:Georgia, 'Times New Roman', Times, serif;
-	font-size: 20pt;;
     font-weight: 200;
+    opacity: 100;
     color: rgb(0, 0, 0);
-    font-size: 110%;
+    font-size: 140%;
     text-shadow: 1px 1px 2px rgb(26, 22, 22);
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
+}
+footer
+{
+    font-size: 60%;
+}
+em
+{
+    text-transform: capitalize;
+    text-shadow: 3px 2px 2px rgb(26, 22, 22);
+    font-style: italic;
 }
 h1 
 {
@@ -54,7 +67,7 @@ h3
 }
 img
 {
-    max-width: 15%;
+    max-width: 30%;
     border-radius: 2px;
     border-style: solid;
     display: block;
@@ -65,3 +78,4 @@ img
 {
     color : rgb(233, 95, 41);
 }
+
