@@ -37,7 +37,7 @@
 
             foreach ($alert as $item)
             {
-                echo('<li>'.$item.'</li');
+                echo('<li>'.$item.'</li>');
             }
 
 

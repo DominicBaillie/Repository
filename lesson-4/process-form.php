@@ -30,7 +30,7 @@
 		// STEP 21: The checkboxes for the Alert Settings will be sent as an array (as there could be more than one option checked by the user - so we need to loop through each item with a FOREACH loop)
 	foreach ($alert as $item)
 	{
-		echo('<li>'.$item.'</li');
+		echo('<li>'.$item.'</li>');
 	}
 
 
