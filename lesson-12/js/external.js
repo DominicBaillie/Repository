@@ -1,1 +1,1 @@
-alert("External javascript is now running");
+//alert("External javascript is now running");
