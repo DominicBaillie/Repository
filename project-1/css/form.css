@@ -50,3 +50,22 @@ label img {
 small {
 	font-size: 70%;
 }
+img
+{
+	width: 150px;
+	height: 150px;
+}
+.hammer_images
+{
+	display: flex;
+	gap: 20px;
+	font-size: .8em;
+	background-color: #e9e6df;
+}
+
+.hammer_images, figcaption
+{
+	text-align: center;
+	align-items:baseline;
+	margin-top: 10px;
+}

@@ -32,16 +32,10 @@
             
             echo('<p>Thank you, '.$fname.' '.$lname.'</p>');
 
-            echo('<p>The Alert Settings you have chosen include the following notifications:</p>
-            <ul>');
-
-            foreach ($alert as $item)
-            {
-                echo('<li>'.$item.'</li>');
-            }
-
-
-            echo('</ul>');
+        ?>
+        <?php
+            $comments = $_GET ["comments"];
+            echo('<p>Additional Comments: '.$comments.'</p>');
         ?>
     </main>
         <footer>
