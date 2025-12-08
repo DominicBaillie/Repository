@@ -28,7 +28,7 @@
         <p>Our dedicated team of engineers, designers, and craftsmen work tirelessly to ensure every hammer meets the highest of standards, you can trust that every hammer produced from hammer corp has been tested rigorusly to survive even the most demanding of jobs.</p>
     </main>
     <footer>
-        <div class="links"><a href="index.php" title="Return to Home">Return to Home</a></div>
+        <div class="links"><a href="index.html" title="Return to Home">Return to Home</a></div>
         <p><small>©Hammer Corp. All rights reserved</small></p>
     </footer>
 </body>

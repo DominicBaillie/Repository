@@ -35,7 +35,7 @@
             <button type="reset">Reset</button> <button type="submit">Submit</button>
         </form>
         <h4>Return Home</h4>
-        <div class="links"><a href="index.php" title="Return to Home">Return to Home</a></div>
+        <div class="links"><a href="index.html" title="Return to Home">Return to Home</a></div>
     </main>
     <footer>
         <p><small>©Hammer Corp. All rights reserved</small></p>

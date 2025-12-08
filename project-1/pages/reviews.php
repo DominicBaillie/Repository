@@ -39,7 +39,7 @@
         </main>
         <footer>
             <div class="links"><a href="form.php" title="Buy Now!">Buy Your Very Own Hammer Today!</a></div>
-            <div class="links"><a href="index.php" title="Return to Home">Return to Home</a></div>
+            <div class="links"><a href="index.html" title="Return to Home">Return to Home</a></div>
             <container>
                 <h3>Important Information</h3>
                 <p>Support: 226-hammer-corp</p>
