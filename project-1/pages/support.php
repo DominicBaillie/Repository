@@ -1,0 +1,42 @@
+<head>
+    <title>The Big New Thing, Hammer</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Hammer Corp">
+		<meta name="description" content="Learn all about the most important invention in modern manufacturing">
+		<link rel="shortcut icon" href="../images/HammerIcon.png" type="../image/x-icon">
+    <link href="../css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <?php include '../includes/nav.php'; ?>
+        <h1>Submit a Support Ticket</h1>
+    </header>
+    <main>
+        <h2>We're Here to Help!</h2>
+        <p>At Hammer Corp, you're expeiernce is our top priority. You can contact us via our email, phone, or you can submit a support ticket below. Rest assured that our top representitives will get back to you as soon as possible. The average wait time for a ticket is 3-5 business days.</p>
+        <form id="support_ticket" action="process-support.php" method="get">
+            <input type="hidden" name="ticket_sent" value="1" />
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" required />
+            <br />
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" required />
+            <br />
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required />
+            <br />
+
+            <label for="issue">Describe Your Issue:</label>
+            <textarea name="issue" id="issue" rows="5" cols="30" required></textarea>
+            <br />
+
+            <button type="reset">Reset</button> <button type="submit">Submit</button>
+        </form>
+        <h4>Return Home</h4>
+        <div class="links"><a href="index.php" title="Return to Home">Return to Home</a></div>
+    </main>
+    <footer>
+        <p><small>©Hammer Corp. All rights reserved</small></p>
+    </footer>

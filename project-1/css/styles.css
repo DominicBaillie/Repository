@@ -86,4 +86,22 @@ article
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.8);
 }
-
+ul
+{
+    color:brown;
+    list-style-type: none;
+    padding: 0;
+    padding-right: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ul a
+{
+    text-decoration: none;
+    font-size: 120%;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid rgb(44, 32, 32);
+    color: rgb(211, 100, 100);
+}

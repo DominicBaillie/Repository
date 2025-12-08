@@ -37,6 +37,10 @@
             $comments = $_GET ["comments"];
             echo('<p>Additional Comments: '.$comments.'</p>');
         ?>
+        <?php
+            $issue = $_GET ["issue"];
+            echo('<p>Issue Description: '.$issue.'</p>');
+        ?>
     </main>
         <footer>
             <p><small>©Hammer Corp. All rights reserved</small></p>

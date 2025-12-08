@@ -1,0 +1,34 @@
+<head>
+    <title>The Big New Thing, Hammer</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Hammer Corp">
+		<meta name="description" content="Learn all about the most important invention in modern manufacturing">
+		<link rel="shortcut icon" href="../images/HammerIcon.png" type="../image/x-icon">
+    <link href="../css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <?php include '../includes/nav.php'; ?>
+        <h1>About Hammer Corp™</h1>
+    </header>
+    <main>
+        <h2>About Hammer Corp™</h2>
+        <p>Founded in 1850, Hammer Corp™ has been innovating in the field of manufacturing, bring to you great new inventions like the mallet, nail, and now the hammer. Our commitment to innovation and imagination has led us to become the domineering force in our industry we are today. </p>
+        <p>Our founder Joe Hammer was a visionary, who from a young age dreamed to become the best engineer, graduating top of his class and dreaming of new ways to push the world of engineering forward. It was this dream that led him to invent his first breakout success, the mallet. The bases for a latest invention, and the largest leap in moving the engineering world forward in more than a century. Hammer Corp™ continues this legacy taking his ideas to the modern age, and growing this company into the future.</p>
+
+        <h2>Our Values</h2>
+        <ul>
+            <li><strong>Quality:</strong> We believe in producing tools that stand the test of time.</li>
+            <li><strong>Innovation:</strong> We are constantly seeking new ways to improve our products and processes.</li>
+            <li><strong>Customer Satisfaction:</strong> Our customers are at the heart of everything we do.</li>
+            <li><strong>Sustainability:</strong> We are committed to environmentally responsible manufacturing practices.</li>
+        </ul>
+
+        <h2>Meet the Team</h2>
+        <p>Our dedicated team of engineers, designers, and craftsmen work tirelessly to ensure every hammer meets the highest of standards, you can trust that every hammer produced from hammer corp has been tested rigorusly to survive even the most demanding of jobs.</p>
+    </main>
+    <footer>
+        <div class="links"><a href="index.php" title="Return to Home">Return to Home</a></div>
+        <p><small>©Hammer Corp. All rights reserved</small></p>
+    </footer>
+</body>

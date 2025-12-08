@@ -3,15 +3,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Edit Personal Information - PayDude™</title>
-        <link rel="stylesheet" href="css/form.css" type="text/css" />
+        <link rel="stylesheet" href="../css/form.css" type="text/css" />
 	</head>
 	<body>
         <header>
+            <?php include '../includes/nav.php'; ?>
             <h1><em>Hammer</em>Corp™</h1>
         </header>
 		<main>
             <h2>Production Information</h2>
-                <form id="edit_payment_info" action="process-form.php" method="get">
+                <form id="edit_payment_info" action="../process-form.php" method="get">
                     <input type="hidden" name="form_sent" value="1" />
                     <h3>Choose Your Hammer</h3>
                     
@@ -59,18 +60,18 @@
                     </div>
                     <div class="hammer_images">
                         <figure>
-                            <img src="images/Club_Hammer2.png" alt="Club Hammer" width="100" />
+                            <img src="../images/Club_Hammer2.png" alt="Club Hammer" width="100" />
                             <!-- Image recieved from marinaredretouch2, https://www.freepik.com/premium-psd/hammer-mans-hand-blank-background_339215512.htm#from_element=cross_selling__psd-->
                             <figcaption>Club Hammer, Red Finish</figcaption>
                         </figure>
                         <!-- Image recieved from freepik, https://www.freepik.com/free-photo/close-up-hammer-nails_49590268.htm#fromView=search&page=1&position=35&uuid=855388ac-4801-41a5-8453-2dfbf93e2a96&query=ball+peen+hammer-->
                         <figure>
-                            <img src="images/Claw_Hammer2.png" alt="Claw Hammer" width="100" />
+                            <img src="../images/Claw_Hammer2.png" alt="Claw Hammer" width="100" />
                             <figcaption>Claw Hammer, Blue Finish</figcaption>
                         </figure>
                         <!-- Image recieved from freepik, https://www.freepik.com/free-photo/view-steel-hammer-construction-work-with-nails_49590270.htm#fromView=search&page=1&position=36&uuid=855388ac-4801-41a5-8453-2dfbf93e2a96&query=ball+peen+hammer-->
                         <figure>
-                            <img src="images/Ball_Peen_Hammer2.png" alt="Ball Peen Hammer" width="100" />
+                            <img src="../images/Ball_Peen_Hammer2.png" alt="Ball Peen Hammer" width="100" />
                             <!-- Image recieved from freepik, https://www.freepik.com/free-photo/copy-space-hammer_8453400.htm#fromView=search&page=1&position=4&uuid=855388ac-4801-41a5-8453-2dfbf93e2a96&query=ball+peen+hammer-->
                             <figcaption>Ball Peen Hammer, Wooden Finish</figcaption>
                         </figure>   
@@ -134,6 +135,8 @@
                </fieldset>
                 <button type="reset">Reset</button> <button type="submit">Submit</button>
             </form>
+            <h4>Return Home</h4>
+            <div class="links"><a href="index.php" title="Return to Home">Return to Home</a></div>
         </main>
         <footer>
             <p><small>©Hammer Corp. All rights reserved</small></p>

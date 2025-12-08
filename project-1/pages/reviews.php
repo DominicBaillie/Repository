@@ -6,11 +6,12 @@
         <meta charset="utf-8" />
         <meta name="author" content="Hammer Corp">
             <meta name="description" content="Learn all about the most important invention in modern manufacturing">
-            <link rel="shortcut icon" href="images/HammerIcon.png" type="image/x-icon">
-        <link href="css/styles.css" rel="stylesheet" />
+            <link rel="shortcut icon" href="images/HammerIcon.png" type="../image/x-icon">
+        <link href="../css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <header>
+            <?php include '../includes/nav.php'; ?>
             <h1>See What Our Customers Are Saying!</h1>
         </header>
         <main>
@@ -37,8 +38,8 @@
             <p>What are you waiting for! Visit our links below and get your today, you won't regret it!</p>
         </main>
         <footer>
-            <div class="links"><a href="form.html" title="Buy Now!">Buy Your Very Own Hammer Today!</a></div>
-            <div class="links"><a href="index.html" title="Return to Home">Return to Home</a></div>
+            <div class="links"><a href="form.php" title="Buy Now!">Buy Your Very Own Hammer Today!</a></div>
+            <div class="links"><a href="index.php" title="Return to Home">Return to Home</a></div>
             <container>
                 <h3>Important Information</h3>
                 <p>Support: 226-hammer-corp</p>

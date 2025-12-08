@@ -1,7 +1,7 @@
-        <container>
-            <h3>Important Information</h3>
-            <p>Support: 226-hammer-corp</p>
-            <p>Contact at, hammercorp@hammers.ca</p>
-            <p>1234 Broadway Lanne, Ontario, Canada</p>
-            <p>©Hammer Corp</p>
-        </container>
+        <ul>
+            <li><a href="../index.php" title="Home">Home</a></li>
+            <li><a href="../form.php" title="Buy Now!">Buy Now!</a></li>
+            <li><a href="../reviews.php" title="Customer Reviews">Customer Reviews</a></li>
+            <li><a href="../support.php" title="Submit a Ticket">Submit a Ticket</a></li>
+            <li><a href="../about.php" title="About Us">About Us</a></li>
+        </ul>
