@@ -1,5 +1,6 @@
- 
+ /* I want the image loaded first, so I can use opacity to help with fading */
 html::before 
+ /* Load first, as to not change the whole pages opacity */
 {
   content: "";
   position: fixed;
@@ -10,7 +11,7 @@ html::before
 
   background-size: cover;
   background-repeat: no-repeat;
-
+    /* I also use gradient to make a fading effect */
   background-image:
       linear-gradient(to bottom,
           rgba(255, 255, 255, 1),
@@ -19,54 +20,58 @@ html::before
       url('../images/hammer.jpg');
 
   opacity: 75%;
+   /* Ensure this is first */
   z-index: -1;
-}
-header, footer 
-{
-	margin: 1in;
-	padding: 0;
-	line-height: 1.5;
 }
 html, body, p 
 {
+     /* General page styling, fonts color, sizing */
 	font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
     opacity: 100;
     color: rgb(0, 0, 0);
     font-size: 140%;
     text-shadow: 1px 1px 2px rgb(26, 22, 22);
+     /* use a shadow to make the letter stand out more on the background */
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
 }
 footer
 {
+     /* Footer doesn't need as much page space */
     font-size: 60%;
 }
 em
 {
+     /* Exaggerate emphasis statments */
     text-transform: capitalize;
     text-shadow: 3px 2px 2px rgb(26, 22, 22);
     font-style: italic;
 }
 h1 
 {
+     /* Title needs to stand out, make upper and larger */
     text-transform: uppercase;
     font-size: 54pt;
     color:black;
 }
-h2 {
+h2 
+{
+     /* Smaller than h1, but still upper. For catchphrase */
 	text-transform: uppercase;
 	font-size: 16pt;
     color: rgb(34, 33, 30);
 }
 h3 
 {
+     /* Footer's header */
 	font-size: 36pt;
     color: rgb(54, 54, 34);
 }
 img
 {
+     /* Border and sizing for the home advertisement image */
     max-width: 30%;
     border-radius: 2px;
     border-style: solid;
@@ -76,10 +81,12 @@ img
 }
 .links a
 {
+     /* Costume link colors */
     color : rgb(233, 95, 41);
 }
 article
 {
+     /* Review styling */
     margin: 50px;
     padding: 20px;
     border-style: solid;
@@ -88,6 +95,7 @@ article
 }
 header ul
 {
+     /* Nav styles */
     color:brown;
     list-style-type: none;
     padding: 0;
@@ -98,12 +106,14 @@ header ul
 }
 ul li
 {
+     /* Nav positioning */
     display: grid;
     margin-right: 20px;
     margin-top : 30px;
 }
 header ul a
 {
+     /* Nav link styling */
     text-decoration: none;
     font-size: 120%;
     padding: 10px;
@@ -111,14 +121,22 @@ header ul a
     border: 5px solid rgb(44, 32, 32);
     color: rgb(211, 100, 100);
 }
+.links a:hover, header ul a:hover
+{
+     /* Hover effect for links */
+    color : rgb(238, 197, 12);
+    text-decoration: underline;
+}
 fieldset
 {
+     /* Form section styling */
     border:0;
     margin: 10px;
     padding: 10px;
 }
 label
 {
+     /* Support and Form label styling */
     display: block;
     font-size: 16pt;
     margin-bottom: 5px;
