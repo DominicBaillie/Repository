@@ -7,7 +7,8 @@
 	</head>
 	<body>
         <header>
-            <ul>
+            <!-- Global Nav -->
+            <ul id ="navigation">
                 <div class="links"></div><li><a href="index.html" title="Home">Home</a></li></div>
                 <div class="links"></div><li><a href="form.html" title="Buy Now!">Buy Now!</a></li></div>
                 <div class="links"></div><li><a href="reviews.html" title="Customer Reviews">Customer Reviews</a></li></div>
@@ -18,6 +19,7 @@
         </header>
 		<main>
             <h2>Production Information</h2>
+            <!-- Dividers with product options for process-form -->
                 <form id="edit_payment_info" action="../process-form.php" method="get">
                     <input type="hidden" name="form_sent" value="1" />
                     <h3>Choose Your Hammer</h3>
@@ -25,6 +27,7 @@
                 <fieldset>
                     <div class="size_selection">
                         <h3>Size</h3>
+                        <!-- Radio buttons for size selection -->
                         <input type="radio" name="size" id="sm" value="sm" />
                         <label for="sm">Small $67.99 (6oz)</label>
                         
@@ -52,19 +55,20 @@
                     
                     <div class = "color_selection">
                         <h3>Color</h3>
-                        <input type="checkbox" name="color" id="red" value="red" />
+                        <input type="radio" name="color" id="red" value="red" />
                         <label for="red">Red</label>
                         
-                        <input type="checkbox" name="color" id="blue" value="blu" />
+                        <input type="radio" name="color" id="blue" value="blu" />
                         <label for="blue">Blue</label>
 
-                        <input type="checkbox" name="color" id="white" value="wte" />
+                        <input type="radio" name="color" id="white" value="wte" />
                         <label for="white">White</label>
 
-                        <input type="checkbox" name="color" id="wood" value="wod" />
+                        <input type="radio" name="color" id="wood" value="wod" />
                         <label for="wood">Wooden</label>
                     </div>
                     <div class="hammer_images">
+                        <!-- Images with captions to represent hammer types and colors -->
                         <figure>
                             <img src="../images/Club_Hammer2.png" alt="Club Hammer" width="100" />
                             <!-- Image recieved from marinaredretouch2, https://www.freepik.com/premium-psd/hammer-mans-hand-blank-background_339215512.htm#from_element=cross_selling__psd-->
@@ -86,6 +90,7 @@
                 <h2>Shipping Information</h2>
                 <fieldset>
                     <legend>Shipping Information</legend>
+                    <!-- Similar form to allow shipping details -->
                     <div>
                         <label for="fname">First Name</label>
                         <input type="text" name="fname" />
@@ -133,6 +138,7 @@
                 </fieldset>
                 <h2>Feedback</h2>
                <fieldset>
+                <!-- Fieldset for user feedback -->
                     <legend>Feedback</legend>
                     <div class = "Feedback">
                         
@@ -145,6 +151,7 @@
             <div class="links"><a href="index.html" title="Return to Home">Return to Home</a></div>
         </main>
         <footer>
+            <!-- Footer for company info -->
             <container>
                 <h3>Important Information</h3>
                 <p>Support: 226-hammer-corp</p>

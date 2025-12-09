@@ -93,6 +93,14 @@ article
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.8);
 }
+ul#gallery li a
+{
+     /* Gallery image link styling */
+    text-decoration: none;
+    text-align: center;
+    color: rgb(145, 114, 29);
+}
+
 header ul
 {
      /* Nav styles */
@@ -111,7 +119,7 @@ ul li
     margin-right: 20px;
     margin-top : 30px;
 }
-header ul a
+header ul#navigation a 
 {
      /* Nav link styling */
     text-decoration: none;
@@ -121,7 +129,7 @@ header ul a
     border: 5px solid rgb(44, 32, 32);
     color: rgb(211, 100, 100);
 }
-.links a:hover, header ul a:hover
+.links a:hover, header ul a:hover, #navigation a:hover
 {
      /* Hover effect for links */
     color : rgb(238, 197, 12);
@@ -141,3 +149,4 @@ label
     font-size: 16pt;
     margin-bottom: 5px;
 }
+
