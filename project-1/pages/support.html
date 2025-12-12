@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Header with metadata and links -->
+        <title>The Big New Thing, Hammer</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Hammer Corp">
+            <meta name="description" content="Learn all about the most important invention in modern manufacturing">
+            <link rel="shortcut icon" href="../images/HammerIcon.png" type="../image/x-icon">
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <!-- Global Nav -->
+            <ul id ="navigation">
+                <div class="links"></div><li><a href="index.html" title="Home">Home</a></li></div>
+                <div class="links"></div><li><a href="form.html" title="Buy Now!">Buy Now!</a></li></div>
+                <div class="links"></div><li><a href="reviews.html" title="Customer Reviews">Customer Reviews</a></li></div>
+                <div class="links"></div><li><a href="support.html" title="Submit a Ticket">Submit a Ticket</a></li></div>
+                <div class="links"></div><li><a href="about.html" title="About Us">About Us</a></li></div>
+            </ul>
+            <h1>Submit a Support Ticket</h1>
+        </header>
+        <main>
+            <h2>We're Here to Help!</h2>
+            <p>At Hammer Corp, you're expeiernce is our top priority. You can contact us via our email, phone, or you can submit a support ticket below. Rest assured that our top representitives will get back to you as soon as possible. The average wait time for a ticket is 3-5 business days.</p>
+            <!-- Support ticket form -->
+            <form id="support_ticket" action="process-support.php" method="get">
+                <fieldset>
+                    <input type="hidden" name="ticket_sent" value="1" />
+                    <label for="fname">First Name:</label>
+                    <textarea name="fname" id="fname" rows="2" cols="60" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <label for="lname">Last Name:</label>
+                    <textarea name="lname" id="lname" rows="2" cols="60" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email Address:</label>
+                    <textarea name="email" id="email" rows="2" cols="60" required></textarea>
+                    
+                </fieldset>
+                <fieldset>
+                    <label for="issue">Describe The Problem:</label>
+                    <textarea name="issue" id="issue" rows="5" cols="90" required></textarea>
+                </fieldset>
+
+                <button type="reset">Reset</button> <button type="submit">Submit</button>
+            </form>
+            <h4>Return Home</h4>
+            <div class="links"><a href="index.html" title="Return to Home">Return to Home</a></div>
+        </main>
+        <footer>
+            <!-- Footer for company info -->
+            <container>
+                <h3>Important Information</h3>
+                <p>Support: 226-hammer-corp</p>
+                <p>Contact at, hammercorp@hammers.ca</p>
+                <p>1234 Broadway Lanne, Ontario, Canada</p>
+                <p>©Hammer Corp</p>
+            </container>
+        </footer>
+    </body>
+</html>

@@ -5,52 +5,79 @@
 /* STEP 2b: Comment out the above declaration, and add below it a font-family value that consists of a list of web-safe fonts (a font stack) */
 
 /* STEP 13: Construct a declaration for the page text using the shorthand font syntax (font-style, font-variant, font-weight, font-stretch, font-size/line-height, and font-family.) */
-html {
-
-}
 /* STEP 3: Add a base color to the HTML element */
-html {
-	background-color: white;
-
+html 
+{
+	background-color: rgb(37, 16, 32);
+	color: rgb(75, 183, 255);
+	/*font-family: sans-serif;*/
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-weight: lighter;
 }
 /* STEP 4a: Try a variety of absolute CSS length/size units (mm, cm, in, pt, pc) to set the font-size on the HTML element */
-html {
 
-}
 /* STEP 4b: Now attempt a variety of relative CSS length/size units (em, ex, ch, rem, vh, vw, %) to do the same thing - use the rule you created above */
 
 /* STEP 4c: Set the root element (HTML) to 10px, then set the H1 and the H2 elements using rem - this is a common practice for controlling font sizing across a page */
-html {
 
-}
 
 /* STEP 8: Apply font-variant to h1 or h2 (small-caps) */
 
 /* STEP 9: Apply underline, overline and strikethrough to the h1 */
 
 /* STEP 14: Apply text-shadow to the H1 element (horizontal offset, vertical offset, blur radius, color) */
-h1 {
-
+h1, h2, h3
+{
+	font-style: italic ;
+	text-transform: capitalize;
+}
+h1 
+{
+	color: rgb(61, 33, 218);
+	font-size: 25pm;
 }
 
 /* STEP 15: In your browser, open up the developer tools, and click on the various parts of the DOM - observe the CSS panel - that's it for now! */
 
 /* STEP 10: Modify the letter and word spacing for the h2 */
-h2 {
-
+h2 
+{
+	color: rgb(161, 71, 245);
+	font-size: 22px;
 }
 /* STEP 12: Transform the text of the h2 (none | capitalize | uppercase | lowercase | full-width) */
-h2 {
 
-}
 /* STEP 5: Line height for paragraphs (leading) - set line-height on the MAIN P elements - this can be a unitless setting (a factor) */
 
 /* STEP 11: Change the indenting of the paragraphs */
-main p {
 
-}
 /* STEP 6: Align text left, right, center and justify for paragraphs */
-main p {
-
+main p
+{
+	text-shadow: 2;
+	text-align: center;
+	line-height: 1.1;
+	color: rgb(150, 231, 241);
+	font-size: 11px;
+}
+blockquote
+{
+	color: rgb(196, 228, 108);
+	font-size: 15px;
+}
+em
+{
+	color: rgb(3, 180, 180);
+	font-size: 14px;
+	font-weight: 100;
+	font-style: oblique;
+}
+strong
+{
+	font-weight: 150;
+	color: blue;
+	font-size: 16px;
+	font-style: italic;
 }
 /* STEP 7: Modify bold and italics, by applying to strong and em - swap them around */
